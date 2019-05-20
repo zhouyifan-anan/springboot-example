@@ -1,0 +1,8 @@
+#配置ElasticSearch 相关
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 127.0.0.1:9300
+server:
+  port: 10086
