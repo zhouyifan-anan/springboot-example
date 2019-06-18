@@ -4,5 +4,10 @@ spring:
     elasticsearch:
       cluster-name: my-application
       cluster-nodes: 127.0.0.1:9300
+  jpa:
+    show-sql: true
 server:
   port: 10086
+logging:
+  level:
+    org.springframework.data.elasticsearch.core: debug
